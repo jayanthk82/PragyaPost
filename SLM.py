@@ -1,4 +1,5 @@
 from transformers import AutoTokenizer,EncoderDecoderModel
+
 def slm(post):
     model = EncoderDecoderModel.from_pretrained("/home/jayanth/Documents/SMART-RETRIVEVAL /env/LINKEDIN/model /bert2bert")
     tokenizer = AutoTokenizer.from_pretrained("/home/jayanth/Documents/SMART-RETRIVEVAL /env/LINKEDIN/model /tokenizer-b2b")
