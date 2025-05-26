@@ -1,5 +1,4 @@
 from openai import OpenAI
-
 def ChatGPT():
     return OpenAI(
   base_url="https://openrouter.ai/api/v1",
