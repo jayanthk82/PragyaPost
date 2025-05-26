@@ -42,7 +42,6 @@ if generate_post:
               st.error(f"An error occurred while generating the post: {e}")
 
 if st.session_state.get('summary'):
-
     if not st.session_state.get('summary_key'):
         st.session_state.summary_key = st.button("Generate summary for the post", key="generate_summary")
     
